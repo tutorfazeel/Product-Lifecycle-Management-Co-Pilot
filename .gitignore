@@ -1,0 +1,22 @@
+# Environment & Secrets
+.env
+
+# Virtual Environments
+.venv/
+venv/
+
+# Python Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE & Editor Directories
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+
+#my personal helper script
+ingest_data_populate_csv.py

@@ -1,0 +1,201 @@
+part_id,part_name,product_line
+P0001,Carbon Fiber Frame Assembly,E-Bike Pro Series
+P0002,Lithium-Ion Battery Module,E-Bike Pro Series
+P0003,Brushless DC Motor Hub,Urban Commuter E-Bike
+P0004,Hydraulic Disc Brake Caliper,Mountain E-Bike X1
+P0005,Integrated LED Headlight,Urban Commuter E-Bike
+P0006,Torque Sensor Bottom Bracket,E-Bike Pro Series
+P0007,Aluminum Alloy Handlebar,Mountain E-Bike X1
+P0008,LCD Control Display Unit,E-Bike Pro Series
+P0009,Suspension Fork Assembly,Mountain E-Bike X1
+P0010,Heavy-Duty Cargo Rack,Cargo E-Bike Hauler
+P0011,7-Speed Derailleur,Urban Commuter E-Bike
+P0012,Puncture-Resistant Tire,Urban Commuter E-Bike
+P0013,Ergonomic Saddle,Mountain E-Bike X1
+P0014,Pedal Assist Sensor,E-Bike Pro Series
+P0015,Regenerative Braking Controller,E-Bike Pro Series
+P0016,GPS Tracking Module,Cargo E-Bike Hauler
+P0017,Bluetooth Connectivity Chip,E-Bike Pro Series
+P0018,Quick-Release Front Wheel,Mountain E-Bike X1
+P0019,Reinforced Chain Guard,Urban Commuter E-Bike
+P0020,Foldable Pedal Set,Urban Commuter E-Bike
+P0021,Frame Integrated Battery Casing,E-Bike Pro Series
+P0022,High-Lumen Taillight,Cargo E-Bike Hauler
+P0023,Carbon Fiber Seatpost,E-Bike Pro Series
+P0024,Air Shock Rear Suspension,Mountain E-Bike X1
+P0025,Thumb Throttle Assembly,Cargo E-Bike Hauler
+P0026,Wiring Harness with Waterproof Connectors,E-Bike Pro Series
+P0027,Aluminum Crankset,Mountain E-Bike X1
+P0028,Locking Grips,Mountain E-Bike X1
+P0029,Fender Set (Front & Rear),Urban Commuter E-Bike
+P0030,Kickstand,Urban Commuter E-Bike
+P0031,Central Motor Mount,E-Bike Pro Series
+P0032,Battery Management System (BMS) Board,E-Bike Pro Series
+P0033,Spoke Set (36-count),Mountain E-Bike X1
+P0034,Rim Tape,Mountain E-Bike X1
+P0035,Controller Housing,Urban Commuter E-Bike
+P0036,Front Carrier Rack,Cargo E-Bike Hauler
+P0037,Mobile App Sync Module,E-Bike Pro Series
+P0038,Security Alarm System,Cargo E-Bike Hauler
+P0039,Chainring (44T),Urban Commuter E-Bike
+P0040,Cassette (11-32T),Mountain E-Bike X1
+P0041,Rotor Blade (Carbon Fiber),Industrial Drone A7
+P0042,Flight Control Unit (FCU),Industrial Drone A7
+P0043,High-Torque Brushless Motor,Industrial Drone A7
+P0044,Electronic Speed Controller (ESC),Industrial Drone A7
+P0045,LiPo Battery Pack (6S),Industrial Drone A7
+P0046,GPS/GLONASS Receiver,Industrial Drone A7
+P0047,4K Gimbal Camera,Industrial Drone A7
+P0048,Radio Telemetry Transmitter,Industrial Drone A7
+P0049,Radio Telemetry Receiver,Industrial Drone A7
+P0050,Carbon Fiber Landing Gear,Industrial Drone A7
+P0051,Power Distribution Board (PDB),Industrial Drone A7
+P0052,Obstacle Avoidance Sensor (LIDAR),Industrial Drone A7
+P0053,FPV Video Transmitter,Industrial Drone A7
+P0054,FPV Camera,Industrial Drone A7
+P0055,LED Navigation Lights (RGB),Industrial Drone A7
+P0056,Weatherproof Motor Casing,Industrial Drone A7
+P0057,Anti-Vibration Gimbal Mount,Industrial Drone A7
+P0058,Propeller Guard Set,Industrial Drone A7
+P0059,Long-Range Antenna,Industrial Drone A7
+P0060,Onboard Computer (Jetson Nano),Industrial Drone A7
+P0061,Reinforced Top Plate,Industrial Drone A7
+P0062,Bottom Plate with Integrated Heatsink,Industrial Drone A7
+P0063,Drone Frame Arm (Carbon Fiber),Industrial Drone A7
+P0064,Battery Strap,Industrial Drone A7
+P0065,Buzzer/Alarm Module,Industrial Drone A7
+P0066,Blackbox Flight Recorder,Industrial Drone A7
+P0067,Voltage Regulator Module,Industrial Drone A7
+P0068,Motor Mount (Aluminum),Industrial Drone A7
+P0069,Servo Motor for Gimbal,Industrial Drone A7
+P0070,Cable Shielding Kit,Industrial Drone A7
+P0071,Central Processing Unit (CPU),E-Bike Pro Series
+P0072,Memory Module (RAM),E-Bike Pro Series
+P0073,Solid State Drive (SSD),Urban Commuter E-Bike
+P0074,Graphics Processing Unit (GPU),Mountain E-Bike X1
+P0075,Motherboard,Urban Commuter E-Bike
+P0076,Power Supply Unit (PSU),E-Bike Pro Series
+P0077,CPU Cooler Fan,Mountain E-Bike X1
+P0078,Chassis/Case,E-Bike Pro Series
+P0079,Network Interface Card (NIC),Mountain E-Bike X1
+P0080,Capacitor Bank,Cargo E-Bike Hauler
+P0081,Resistor Pack,Urban Commuter E-Bike
+P0082,Diode Array,Urban Commuter E-Bike
+P0083,Transistor Set,Mountain E-Bike X1
+P0084,Inductor Coil,E-Bike Pro Series
+P0085,Printed Circuit Board (PCB) - Main,E-Bike Pro Series
+P0086,Voltage Regulator,Cargo E-Bike Hauler
+P0087,Crystal Oscillator,E-Bike Pro Series
+P0088,Heat Sink,Mountain E-Bike X1
+P0089,Connector (USB-C),Urban Commuter E-Bike
+P0090,Connector (HDMI),Urban Commuter E-Bike
+P0091,Fiber Optic Cable Spool,E-Bike Pro Series
+P0092,Ethernet Port Assembly,Cargo E-Bike Hauler
+P0093,Fuse Holder,E-Bike Pro Series
+P0094,Relay Switch,Mountain E-Bike X1
+P0095,Potentiometer,Cargo E-Bike Hauler
+P0096,LED Indicator Light,E-Bike Pro Series
+P0097,Toggle Switch,Mountain E-Bike X1
+P0098,Push Button,Mountain E-Bike X1
+P0099,Screw and Fastener Kit,Urban Commuter E-Bike
+P0100,Cable Tie Bundle,Urban Commuter E-Bike
+P0101,Brake Lever,E-Bike Pro Series
+P0102,Shift Lever,E-Bike Pro Series
+P0103,Brake Pad Set,Urban Commuter E-Bike
+P0104,Brake Cable,Mountain E-Bike X1
+P0105,Gear Cable,Urban Commuter E-Bike
+P0106,Handlebar Grips,E-Bike Pro Series
+P0107,Stem,Mountain E-Bike X1
+P0108,Headset Bearings,E-Bike Pro Series
+P0109,Bottom Bracket Bearings,Mountain E-Bike X1
+P0110,Chain,Cargo E-Bike Hauler
+P0111,Pedals,Urban Commuter E-Bike
+P0112,Saddle Clamp,Urban Commuter E-Bike
+P0113,Seatpost Collar,Mountain E-Bike X1
+P0114,Quick Release Skewer,E-Bike Pro Series
+P0115,Valve Stem (Presta),E-Bike Pro Series
+P0116,Valve Stem (Schrader),Cargo E-Bike Hauler
+P0117,Tire Sealant,E-Bike Pro Series
+P0118,Disc Brake Rotor,Mountain E-Bike X1
+P0119,Spoke Wrench,Urban Commuter E-Bike
+P0120,Chain Tool,Urban Commuter E-Bike
+P0121,Multi-Tool Kit,E-Bike Pro Series
+P0122,Frame Pump,Cargo E-Bike Hauler
+P0123,Water Bottle Cage,E-Bike Pro Series
+P0124,Bell,Mountain E-Bike X1
+P0125,Mirror,Cargo E-Bike Hauler
+P0126,Phone Mount,E-Bike Pro Series
+P0127,Glove Set,Mountain E-Bike X1
+P0128,Helmet,Mountain E-Bike X1
+P0129,Bike Lock,Urban Commuter E-Bike
+P0130,Pannier Bag,Urban Commuter E-Bike
+P0131,Laser Emitter Module,Industrial Drone A7
+P0132,Infrared Sensor,Industrial Drone A7
+P0133,High-Resolution Encoder,Industrial Drone A7
+P0134,Stepper Motor,Industrial Drone A7
+P0135,Solenoid Valve,Industrial Drone A7
+P0136,Pneumatic Actuator,Industrial Drone A7
+P0137,Pressure Sensor,Industrial Drone A7
+P0138,Temperature Sensor,Industrial Drone A7
+P0139,Humidity Sensor,Industrial Drone A7
+P0140,Accelerometer,Industrial Drone A7
+P0141,Gyroscope,Industrial Drone A7
+P0142,Magnetometer,Industrial Drone A7
+P0143,Barometer,Industrial Drone A7
+P0144,Proximity Sensor,Industrial Drone A7
+P0145,Light Sensor,Industrial Drone A7
+P0146,Sound Sensor,Industrial Drone A7
+P0147,Vibration Sensor,Industrial Drone A7
+P0148,Flow Sensor,Industrial Drone A7
+P0149,Load Cell,Industrial Drone A7
+P0150,Strain Gauge,Industrial Drone A7
+P0151,Optical Sensor,Industrial Drone A7
+P0152,Ultrasonic Sensor,Industrial Drone A7
+P0153,Capacitive Sensor,Industrial Drone A7
+P0154,Inductive Sensor,Industrial Drone A7
+P0155,Hall Effect Sensor,Industrial Drone A7
+P0156,Rotary Encoder,Industrial Drone A7
+P0157,Linear Encoder,Industrial Drone A7
+P0158,Force Sensor,Industrial Drone A7
+P0159,Torque Sensor,Industrial Drone A7
+P0160,Position Sensor,Industrial Drone A7
+P0161,Photoelectric Sensor,Industrial Drone A7
+P0162,Microswitch,Industrial Drone A7
+P0163,Limit Switch,Industrial Drone A7
+P0164,Reed Switch,Industrial Drone A7
+P0165,Thermocouple,Industrial Drone A7
+P0166,RTD Sensor,Industrial Drone A7
+P0167,Thermistor,Industrial Drone A7
+P0168,PH Sensor,Industrial Drone A7
+P0169,Conductivity Sensor,Industrial Drone A7
+P0170,Turbidity Sensor,Industrial Drone A7
+P0171,Dissolved Oxygen Sensor,Industrial Drone A7
+P0172,CO2 Sensor,Industrial Drone A7
+P0173,Gas Sensor,Industrial Drone A7
+P0174,Radiation Sensor,Industrial Drone A7
+P0175,Biometric Sensor,Industrial Drone A7
+P0176,Camera Module,Industrial Drone A7
+P0177,Microphone Module,Industrial Drone A7
+P0178,Speaker Module,Industrial Drone A7
+P0179,Haptic Feedback Motor,Industrial Drone A7
+P0180,RFID Reader,Industrial Drone A7
+P0181,NFC Reader,Industrial Drone A7
+P0182,Bluetooth Module,Industrial Drone A7
+P0183,Wi-Fi Module,Industrial Drone A7
+P0184,Cellular Module (4G/5G),Industrial Drone A7
+P0185,LoRaWAN Module,Industrial Drone A7
+P0186,Zigbee Module,Industrial Drone A7
+P0187,Z-Wave Module,Industrial Drone A7
+P0188,CAN Bus Transceiver,Industrial Drone A7
+P0189,RS-232 Transceiver,Industrial Drone A7
+P0190,RS-485 Transceiver,Industrial Drone A7
+P0191,EtherCAT Module,Industrial Drone A7
+P0192,Profinet Module,Industrial Drone A7
+P0193,Modbus Module,Industrial Drone A7
+P0194,Power over Ethernet (PoE) Module,Industrial Drone A7
+P0195,USB Hub,Industrial Drone A7
+P0196,Vibration Damping Mount,Industrial Drone A7
+P0197,High-Gain Antenna,Industrial Drone A7
+P0198,Parachute Deployment System,Industrial Drone A7
+P0199,Payload Release Mechanism,Industrial Drone A7
+P0200,Gimbal Control Board,Industrial Drone A7
