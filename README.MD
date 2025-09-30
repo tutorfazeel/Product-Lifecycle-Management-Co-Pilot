@@ -1,88 +1,80 @@
 # AWS GraphRAG PLM Co-Pilot Demo
 
-This project demonstrates a Product Lifecycle Management (PLM) Co-Pilot built with a GraphRAG architecture. It uses Neo4j for the knowledge graph, an open-source LLM (Mistral 7B) hosted on AWS SageMaker, and a Streamlit web interface.
+This project demonstrates a **Product Lifecycle Management (PLM) Co-Pilot** built with a **GraphRAG architecture**. It uses **Neo4j** for the knowledge graph, an **open-source LLM** hosted on **AWS SageMaker**, and a **Streamlit** web interface. This repository contains all the code and instructions needed for a full demonstration.
 
-This architecture is powerful for answering complex questions about interconnected data, such as a manufacturing supply chain.
+From a **Technical Manager's** perspective, this project isn't just a technical demo; it's a showcase of a modern **MLOps** workflow, complete with **FinOps** instrumentation and real-world deployment challenges.
 
-
+---
 
 ## ⚙️ Architecture
-1.  **Data Source**: Four CSV files representing parts, suppliers, compliance, and their relationships.
-2.  **Knowledge Graph**: A Python script (`ingest_data.py`) parses the CSVs and populates a Neo4j AuraDB instance.
-3.  **LLM Backend**: A Mistral 7B model is deployed on an AWS SageMaker endpoint for inference.
-4.  **RAG Orchestration**: LangChain's `GraphCypherQAChain` connects the graph and the LLM. It translates a user's natural language question into a Cypher query, executes it against the graph, and uses the result to generate a final answer.
-5.  **Frontend**: A Streamlit application (`app.py`) provides a simple UI for users to ask questions and view results, including key LLMOps/FinOps metrics like latency and cost.
 
-## 🚀 Setup Instructions
+- **Data Source:** CSV files representing parts, suppliers, compliance, and their relationships.
+- **Knowledge Graph:** A Python script (`ingest_data.py`) populates a **Neo4j AuraDB** instance.
+- **LLM Backend:** An open-source model (e.g., **Mistral 7B**) is deployed on a dedicated **AWS SageMaker** endpoint for inference.
+- **RAG Orchestration:** LangChain's `GraphCypherQAChain` translates natural language questions into **Cypher queries**, executes them against the graph, and uses the results to generate a final answer.
+- **Frontend:** A **Streamlit** application (`app.py`) provides a UI for users to ask questions and view results, including key **LLMOps/FinOps** metrics like latency and cost.
 
-Follow these steps to get the PLM Co-Pilot running.
+---
 
-### 1. Set Up Neo4j AuraDB
+## 🚀 Setup & Execution Guide
 
-1.  Go to the [Neo4j AuraDB website](https://neo4j.com/cloud/platform/aura-database/) and sign up for a free account.
-2.  Create a new **Free DB Instance**.
-3.  Once the instance is running, find your connection credentials:
-    * **Connection URI** (the `neo4j+s://...` string)
-    * **Username** (usually `neo4j`)
-    * **Password** (the one you saved during creation)
-4.  Keep these details handy for your `.env` file.
+This project uses **just** as a command runner to simplify setup and execution.
 
-### 2. Deploy LLM on AWS SageMaker
+### 1. Prerequisites
 
-You need to deploy a large language model to a SageMaker endpoint. We recommend using Mistral 7B via AWS JumpStart for simplicity.
+Before you begin, ensure you have the following ready:
 
-1.  Log in to your AWS Management Console.
-2.  Navigate to the **Amazon SageMaker** service.
-3.  In the left-hand menu, go to **JumpStart**.
-4.  Search for **Mistral 7B Instruct** and select it.
-5.  Click **Deploy**. For the instance type, choose an appropriate GPU instance like `ml.g5.2xlarge`.
-6.  Once the deployment is complete, an endpoint will be created. Go to **Inference > Endpoints** in the SageMaker console.
-7.  Copy the **Endpoint name**. It will look something like `jumpstart-dft-mistral-7b-instruct-...`.
+- **Neo4j AuraDB Instance:** A free instance from Neo4j AuraDB. You will need your **Connection URI**, **Username**, and **Password**.
+- **AWS SageMaker Endpoint:** An active SageMaker endpoint running a model like **Mistral 7B Instruct**. You will need the **Endpoint Name** and your **AWS Region**.
+- **Python:** Python **3.10+** installed on your system.
+- **Just:** The `just` command runner. If you don't have it, install it via your package manager (for example):
+    
+    - macOS:
+        4-space indentation for code block
+        brew install just
+    - Windows (Chocolatey):
+        4-space indentation for code block
+        choco install just
+    - Linux (apt):
+        4-space indentation for code block
+        sudo apt install just
 
-_**Note:** Running a SageMaker endpoint incurs AWS costs. Remember to shut it down after your demo!_
+> (Note: The above package manager commands are shown as plain text — when you paste into your README, replace the explanatory lines as needed.)
 
-### 3. Set Up Local Python Environment
+### 2. Configure Environment Variables
 
-1.  **Clone the repository:**
-    ```bash
-    git clone <your-repo-url>
-    cd <your-repo-directory>
-    ```
+Create your local environment file from the template:
 
-2.  **Create and activate a virtual environment:**
-    ```bash
-    python -m venv venv
-    # On Windows
-    # venv\Scripts\activate
-    # On macOS/Linux
-    source venv/bin/activate
-    ```
-
-3.  **Install the required dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-### 4. Configure Environment Variables
-
-1.  Create a copy of the example environment file:
-    ```bash
     cp .env.example .env
-    ```
 
-2.  Open the `.env` file and fill in the values you collected in the previous steps:
-    ```
+Open the `.env` file and fill in the credentials you collected in the prerequisite step:
+
     NEO4J_URI="your-neo4j-uri"
     NEO4J_USERNAME="your-neo4j-username"
     NEO4J_PASSWORD="your-neo4j-password"
-    AWS_REGION="your-aws-region" # e.g., us-east-1
+    AWS_REGION="your-aws-region"
     SAGEMAKER_ENDPOINT_NAME="your-sagemaker-endpoint-name"
-    ```
-    Also, ensure your local environment is configured with AWS credentials (e.g., via `aws configure` or environment variables).
 
-### 5. Ingest Data into Neo4j
+### 3. Run the Application with just
 
-Run the ingestion script to populate your graph database. This script will first wipe the database to ensure a clean slate.
+With your `.env` file configured, running the entire project is as simple as executing these three commands from your terminal.
 
-```bash
-python ingest_data.py
+**Setup the Environment**  
+This command creates a Python virtual environment and installs all required libraries.
+
+    just setup
+
+**Ingest Data into Neo4j**  
+This command wipes the database and loads the data from the `mock_data/` folder.
+
+    just ingest
+
+**Launch the Co-Pilot App**  
+This command starts the Streamlit web application.
+
+    just run
+
+You can now access the **PLM Co-Pilot** in your browser at:  
+http://localhost:8501
+
+---
